@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f6f8;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  /* Container */
+  .MuiContainer-root {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Paper */
+  .MuiPaper-root {
+    transition: all 0.3s ease;
+  }
+  
+  .MuiPaper-root:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  /* Typography */
+  .MuiTypography-h4 {
+    font-weight: 700 !important;
+  }
+  
+  .MuiTypography-h6 {
+    font-weight: 600 !important;
+  }
+  
+  /* TextField */
+  .MuiTextField-root {
+    transition: all 0.2s ease;
+  }
+  
+  .MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #1976d2 !important;
+  }
+  
+  /* Select */
+  .MuiSelect-root {
+    background-color: #ffffff !important;
+  }
+  
+  /* Buttons */
+  .MuiButton-root {
+    transition: all 0.2s ease !important;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #1565c0 !important;
+  }
+  
+  .MuiButton-outlinedPrimary:hover {
+    background-color: rgba(25, 118, 210, 0.04) !important;
+  }
+  
+  .MuiIconButton-root:hover {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+  
+  /* Cards */
+  .MuiCard-root {
+    border-radius: 8px !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .MuiGrid-item {
+      padding: 8px !important;
+    }
+  
+    .MuiButton-root {
+      width: 100% !important;
+      margin-top: 8px !important;
+    }
+  
+    .MuiTypography-h4 {
+      font-size: 1.8rem !important;
+    }
+  }
+  
+  /* Payload display */
+  pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
