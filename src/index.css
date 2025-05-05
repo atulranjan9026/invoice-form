@@ -1,6 +1,5 @@
 body {
     background-color: #f4f6f8;
-    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
   
   /* Container */
@@ -81,7 +80,6 @@ body {
   
   /* Payload display */
   pre {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 0.9rem;
     line-height: 1.5;
     background-color: #f8f9fa;
