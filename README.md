@@ -1,12 +1,77 @@
-# React + Vite
+# Invoice Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite for managing invoice forms. This project uses Material-UI for styling and React Hook Form with Zod for form validation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 with Vite for fast development
+- Material-UI components for a polished UI
+- Form validation using React Hook Form and Zod
+- ESLint configuration for code quality
+- TypeScript support
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Dependencies
+
+### Main Dependencies
+- React 19
+- Material-UI (@mui/material, @mui/icons-material)
+- React Hook Form
+- Zod for validation
+- Emotion for styled components
+
+### Development Dependencies
+- Vite
+- ESLint
+- TypeScript
+- React Refresh
+
+## Project Structure
+
+```
+invoice-form/
+├── src/           # Source files
+├── public/        # Static assets
+├── dist/          # Build output
+└── node_modules/  # Dependencies
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is private and proprietary.

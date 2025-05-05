@@ -273,7 +273,7 @@ const InvoiceForm = () => {
                         sx={{ backgroundColor: '#ffffff' }}
                       />
                     </Grid>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={10} sx={{ minWidth: '112px' }}>
                       <Controller
                         name="customer.state"
                         control={control}
@@ -340,7 +340,7 @@ const InvoiceForm = () => {
                       }}
                     >
                       <Grid container spacing={2} alignItems="center">
-                        <Grid item xs={12} md={3}>
+                        <Grid item xs={12} md={3} sx={{ minWidth: '112px' }}>
                           <Controller
                             name={`products.${index}.productName`}
                             control={control}
@@ -555,7 +555,7 @@ const InvoiceForm = () => {
                     Payment Details
                   </Typography>
                   <Grid container spacing={3}>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={12} md={6} sx={{ minWidth: '122px' }}>
                       <Controller
                         name="paymentMethod"
                         control={control}
